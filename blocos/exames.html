@@ -1,0 +1,45 @@
+<section class="blk-exames" id="exames">
+  <div class="wrap blk-exames__grid">
+    <div class="blk-exames__cab" data-reveal>
+      <p class="blk-exames__eyebrow">Antes de qualquer sessão</p>
+      <h2 class="blk-exames__titulo">Quatro exames olham o couro cabeludo por dentro e por fora.</h2>
+      <p class="blk-exames__lead" data-acende>A queda raramente tem uma causa só. Por isso a primeira consulta já inclui exames feitos na própria sala, para o tratamento começar pelo que está acontecendo com você.</p>
+    </div>
+    <ol class="blk-exames__lista">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-exames__ico"><!--icone:microscopio--></span>
+        <div><h3>Tricoscopia</h3><p>Fios, folículos e padrão da queda vistos de perto.</p></div>
+      </li>
+      <li data-reveal style="--d:100ms">
+        <span class="blk-exames__ico"><!--icone:mao--></span>
+        <div><h3>Pull test</h3><p>Mede quanto a queda está ativa e quão frágil o fio está.</p></div>
+      </li>
+      <li data-reveal style="--d:200ms">
+        <span class="blk-exames__ico"><!--icone:molecula--></span>
+        <div><h3>Exame micológico</h3><p>Investiga fungos ou infecção no couro cabeludo.</p></div>
+      </li>
+      <li data-reveal style="--d:300ms">
+        <span class="blk-exames__ico"><!--icone:pele--></span>
+        <div><h3>Dermoanálise</h3><p>Oleosidade, hidratação e condição geral da pele do couro.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-exames{padding-block:var(--sp-section)}
+.blk-exames__grid{display:grid;gap:var(--sp-5)}
+.blk-exames__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand)}
+.blk-exames__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-exames__lead{margin:var(--sp-3) 0 0;font-size:1.1rem;color:color-mix(in srgb,var(--ink) 78%,transparent)}
+.blk-exames__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-3)}
+.blk-exames__lista li{display:flex;gap:var(--sp-3);align-items:flex-start;padding:var(--sp-4);border:1px solid color-mix(in srgb,var(--pulse) 55%,transparent);border-radius:var(--radius)}
+.blk-exames__ico{flex:none;display:inline-flex;align-items:center;justify-content:center;width:3rem;height:3rem;border-radius:50%;color:var(--brand);border:1px solid color-mix(in srgb,var(--pulse) 70%,transparent)}
+.blk-exames__ico svg{width:1.5rem;height:1.5rem}
+.blk-exames__lista h3{margin:0;font-family:var(--f-display);font-weight:500;font-size:clamp(1.4rem,3.2vw,1.8rem);line-height:1.1;color:var(--ink)}
+.blk-exames__lista p{margin:.4rem 0 0;line-height:1.55;color:color-mix(in srgb,var(--ink) 74%,transparent)}
+@media (min-width:56rem){
+  .blk-exames__grid{grid-template-columns:1fr 1.1fr;gap:4rem;align-items:center}
+  .blk-exames__lista{grid-template-columns:1fr 1fr}
+}
+</style>

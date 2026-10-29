@@ -1,0 +1,134 @@
+{
+  "slug": "cabelo-e-saude",
+  "negocio": {
+    "nome": "Cabelo e Saúde · Clínica de Tricologia",
+    "logo": "brand/logo.png",
+    "whatsapp": "5548984813018",
+    "telefone": "(48) 98481-3018",
+    "unidades": [
+      {
+        "bairro": "Campinas · São José",
+        "endereco": "Av. Marechal Castelo Branco, 65, sala 507, bloco A – Campinas, São José – SC",
+        "telefone": "(48) 98481-3018"
+      },
+      {
+        "bairro": "América · Joinville",
+        "endereco": "Rua Blumenau, 64, sala 701 – América, Joinville – SC",
+        "telefone": "(48) 98481-3018"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#0A4A3E",
+    "brand2": "#06322A",
+    "ink": "#1A1714",
+    "bg": "#FAF8F2",
+    "pulse": "#C9A54E",
+    "radius": "6px",
+    "registro": "editorial",
+    "fontDisplay": "Oswald",
+    "fontBody": "Inter",
+    "tomHero": "escuro",
+    "tomCorpo": "claro"
+  },
+  "secoes": [
+    { "id": "header", "variant": "sticky-cta", "data": { "links": [
+      { "texto": "A consulta", "href": "#manifesto" },
+      { "texto": "Exames", "href": "#exames" },
+      { "texto": "Tecnologias", "href": "#tecnologias" },
+      { "texto": "Onde fica", "href": "#unidades" }
+    ] } },
+    { "id": "hero", "variant": "split-motivo", "data": {
+      "eyebrow": "Clínica de tricologia",
+      "h1": "Por que o seu cabelo cai?",
+      "lead": "Consulta tricológica com exames do couro cabeludo feitos na hora e seis meses de acompanhamento. O tratamento começa depois que a causa da queda está clara.",
+      "cta": "Agendar consulta",
+      "ctaSecundario": "Ver como é a consulta",
+      "ctaSecundarioHref": "#como-funciona",
+      "selo": "4,9 no Google · 213 avaliações · ",
+      "cardTitulo": "Agende pelo WhatsApp",
+      "arte": "grao"
+    } },
+    { "id": "fita", "data": { "itens": [
+      "Tricoscopia", "Pull test", "Exame micológico", "Dermoanálise", "Fotobiomodulação",
+      "Vacuoterapia", "Intradermoterapia capilar", "Microagulhamento", "Laser capilar", "Lavieen"
+    ] } },
+    { "id": "numeros", "variant": "gigante", "data": {
+      "titulo": "A clínica em números",
+      "itens": [
+        { "valor": "+2.000", "rotulo": "pacientes atendidos pela clínica", "contar": 2000 },
+        { "valor": "8", "rotulo": "anos desde que a Dra. Franciele fundou a clínica", "contar": 8 },
+        { "valor": "4,9", "rotulo": "de nota no Google, em 213 avaliações" },
+        { "valor": "6", "rotulo": "meses de acompanhamento incluídos", "contar": 6 }
+      ]
+    } },
+    { "id": "manifesto", "variant": "pagina", "data": {
+      "eyebrow": "Fundada há 8 anos pela Dra. Franciele Madeira",
+      "citacao": "Queda de cabelo é um sintoma. O que importa é o que está por trás dele.",
+      "autor": "Dra. Franciele Madeira, biomédica e tricologista",
+      "texto": [
+        "Franciele abriu a clínica depois de ouvir muita gente que já tinha tentado cosmético, vitamina e receita genérica sem descobrir o motivo da queda. A proposta da casa é o caminho inverso: investigar primeiro, tratar depois.",
+        "Hormônios, inflamação no couro cabeludo, deficiências nutricionais e fatores metabólicos costumam aparecer juntos. Por isso cada paciente sai da primeira consulta com um protocolo montado para o próprio caso."
+      ]
+    } },
+    { "custom": "blocos/exames.html" },
+    { "id": "passos", "variant": "timeline", "data": {
+      "titulo": "Como é a Consulta Tricológica Avançada",
+      "lead": "Quatro etapas, da primeira conversa ao acompanhamento.",
+      "itens": [
+        { "titulo": "Consulta inicial", "texto": "Histórico de queda, rotina, alimentação, saúde geral e histórico hormonal e inflamatório, para entender a causa real.", "icone": "conversa" },
+        { "titulo": "Exames do couro cabeludo", "texto": "Tricoscopia, pull test, exame micológico e dermoanálise, na mesma visita.", "icone": "microscopio" },
+        { "titulo": "Início do tratamento", "texto": "Com o diagnóstico fechado, começam as sessões clínicas do protocolo personalizado.", "icone": "folha" },
+        { "titulo": "Acompanhamento", "texto": "Nos meses seguintes o tratamento é monitorado e ajustado conforme a evolução dos fios.", "icone": "agenda" }
+      ]
+    } },
+    { "id": "tecnologias", "variant": "grade", "data": {
+      "titulo": "Tecnologias que entram no protocolo",
+      "itens": [
+        { "nome": "Fotobiomodulação", "detalhe": "Laser terapêutico para fortalecer os fios e estimular o crescimento", "icone": "laser" },
+        { "nome": "Vacuoterapia", "detalhe": "Sucção que melhora a circulação e a oxigenação do couro cabeludo", "icone": "ultrassom" },
+        { "nome": "Intradermoterapia capilar", "detalhe": "Ativos aplicados direto no couro cabeludo para nutrir o folículo", "icone": "seringa" },
+        { "nome": "Microagulhamento", "detalhe": "Microperfurações controladas que estimulam a regeneração", "icone": "pele" },
+        { "nome": "Laser capilar", "detalhe": "Estimulação suave que ativa a circulação e fortalece os folículos", "icone": "sol" },
+        { "nome": "Lavieen", "detalhe": "Estimula a regeneração celular e a absorção de ativos na raiz", "icone": "estrela" }
+      ]
+    } },
+    { "id": "corpo-clinico", "variant": "lista", "data": {
+      "titulo": "Quem conduz o seu caso",
+      "itens": [
+        { "nome": "Franciele Madeira", "especialidade": "Biomédica · Tricologista · Fundadora" }
+      ]
+    } },
+    { "id": "depoimentos", "variant": "citacoes", "data": {
+      "titulo": "O que pacientes escrevem no Google",
+      "itens": [
+        { "texto": "Estamos no início do tratamento, mas já dá para ver o fortalecimento dos fios e os fios novos.", "autor": "Luciana D.", "contexto": "Avaliação no Google" },
+        { "texto": "Foi com o tratamento da Dra. Franciele que parou a queda de cabelo que eu estava sofrendo, e os cabelos voltaram a nascer.", "autor": "Gislaine P.", "contexto": "Avaliação no Google" },
+        { "texto": "Atendimento no horário, todos atenciosos. A doutora explica tudo em detalhes e olha o corpo como um todo, não só o cabelo.", "autor": "Polacasu W.", "contexto": "Avaliação no Google" }
+      ]
+    } },
+    { "id": "faq", "variant": "acordeao", "data": {
+      "titulo": "Perguntas antes de agendar",
+      "itens": [
+        { "p": "O que está incluso no acompanhamento?", "r": "Consulta tricológica, investigação dos exames laboratoriais, quatro exames do couro cabeludo, sessões terapêuticas na clínica e seis meses de acompanhamento profissional." },
+        { "p": "Todo paciente faz o mesmo tratamento?", "r": "Não. As tecnologias são combinadas conforme o que a consulta e os exames mostram em cada caso." },
+        { "p": "Há garantia de resultado?", "r": "Não. Cada pessoa tem características anatômicas e fisiológicas próprias, e a clínica informa isso de forma clara." },
+        { "p": "Onde são os atendimentos?", "r": "Em São José (Campinas) e em Joinville (América). Os endereços estão logo abaixo." }
+      ]
+    } },
+    { "id": "unidades", "variant": "cartoes", "data": { "titulo": "Duas unidades em Santa Catarina" } },
+    { "id": "cta-final", "variant": "bloco-cheio", "data": {
+      "h2": "Descubra a causa da sua queda capilar",
+      "lead": "Chame pelo WhatsApp, escolha a unidade e marque a Consulta Tricológica Avançada.",
+      "cta": "Quero agendar uma consulta"
+    } },
+    { "id": "footer", "variant": "completo", "data": {
+      "links": [
+        { "texto": "Exames", "href": "#exames" },
+        { "texto": "Tecnologias", "href": "#tecnologias" },
+        { "texto": "Onde fica", "href": "#unidades" }
+      ],
+      "aviso": "Cabelo e Saúde · Clínica de Clínica de tricologia, SC. Os resultados não são garantidos e variam de paciente para paciente."
+    } }
+  ]
+}
